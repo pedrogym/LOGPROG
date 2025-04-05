@@ -1,0 +1,24 @@
+programa {
+	funcao inicio(){
+		cadeia nome 
+		inteiro idade
+		cadeia pedido
+
+		
+		escreva ("olá , nome, qual seu nome .\n")
+		leia (nome)
+		
+		 escreva("certo " ,nome, " qual a sua idade.\n")
+		 leia (idade)
+		 
+		 se (idade >= 18){
+		  escreva ("qual seria seu pedido ")
+		  leia (pedido)
+		  escreva("aqui esta seu ", pedido ," " ,nome ," !.\n")
+
+		 }  senao{
+		 	escreva ("voce nao pode comprar em nossa loja")
+		 	 	
+		 } 
+	}
+}
