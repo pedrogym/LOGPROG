@@ -1,0 +1,12 @@
+aluno = {
+    "nome" :"pedro",
+    "idade" :20,
+    "sexualidade" :"homem",
+    "time" : "Palmeiras " ,
+    "RA" : 158024
+}
+print("Nome:", aluno["nome"])
+print("Idade:", aluno["idade"])
+print("sexualidade:", aluno["sexualidade"])
+print("time:", aluno["time"])
+print("RA:", aluno["RA"])
